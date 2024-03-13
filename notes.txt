@@ -4,3 +4,6 @@ package.json
 2) main: option which serves as entry point when app is published and installed. (need to explore in future if needed)
 3) browser: option which indicates that app is used on client side when published and installed. (need to explore in future if neeeded)
 4) bin: option to execute cmd or executables from computer's bin when app is published and installed. (need to explore in future if needed)
+5) engine: option to tell which node or npm on which the app would run when pulished and installed. (need to inlcude if published in registry, future scope)
+To Do:
+1) what is .npmrc? can it include link for aws? can we have have nmpm registry in cloud?
