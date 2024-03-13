@@ -1,0 +1,15 @@
+{
+  "name": "interview-library",
+  "version": "1.0.0",
+  "description": " a library containing js interview questions as functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "js",
+    "ts"
+  ],
+  "author": "Jayan Leander",
+  "license": "ISC"
+}
