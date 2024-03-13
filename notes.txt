@@ -1,0 +1,6 @@
+This notes contains findings and future references. Once matured will be integrated with readme file
+package.json
+1) file: option to include/exclude contents when app is pulished and installed. (need to explore in future if needed)
+2) main: option which serves as entry point when app is published and installed. (need to explore in future if needed)
+3) browser: option which indicates that app is used on client side when published and installed. (need to explore in future if neeeded)
+4) bin: option to execute cmd or executables from computer's bin when app is published and installed. (need to explore in future if needed)
