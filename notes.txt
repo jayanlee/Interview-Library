@@ -7,6 +7,6 @@ package.json
 5) engine: option to tell which node or npm on which the app would run when pulished and installed. (need to inlcude if published in registry, future scope)
 
 To Do:
-1) esconfig, prettierconfig, babelconfig, tsconfig and respective ignore exploration and comitting (14/03/24) 
-2) webpack common, dev and prod file exploration and comitting (15/03/24)
-3) what is .npmrc? can it include link for aws? can we have have nmpm registry in cloud? (17/03/24)
+1) esconfig, prettierconfig, babelconfig, tsconfig and respective ignore exploration and comitting (14/03/24)
+2) what is .npmrc? can it include link for aws? can we have have nmpm registry in cloud? (17/03/24)
+3) wepack done with basic scripts and plugins, need to explore more depending on usecase (On-going activity)
