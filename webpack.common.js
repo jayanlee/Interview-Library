@@ -4,8 +4,9 @@ const path = require('path');
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "main.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true
   },
   module: {
     rules: [
@@ -23,5 +24,8 @@ module.exports = {
       }
     ],
   },
-  plugins: [new HtmlWebpackPlugin({ template: "index.html" })],
+  plugins: [new HtmlWebpackPlugin({ template: "src/index.html" })],
+  optimization: {
+    runtimeChunk: 'single',
+  }
 };
